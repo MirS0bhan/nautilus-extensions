@@ -13,7 +13,7 @@ class ParchNautilusMenuProvider(GObject.GObject, Nautilus.MenuProvider):
         current_folder: Nautilus.FileInfo,
     ) -> List[Nautilus.MenuItem]:
         menuitem = Nautilus.MenuItem(
-            name="ParchNautilusMenuProvider::Paste2File",
+            name="NautilusMenuProvider::Paste2File",
             label="Paste to File",
             tip="Pastes clipboard content to a file named 'New File.txt'",
             icon="edit-paste",
